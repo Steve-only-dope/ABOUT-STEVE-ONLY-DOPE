@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <style>
+      body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#fffff;
+}
+  span {
+      color: #ff6aa9;
+  }
+  .logo {
+       padding:10px 20px;
+       
+  }
+  
+  .button_1{
+  height:38px;
+  background: #ff6aa9;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#fffll;
+}
+ .button_2{
+  height:38px;
+  background: #ffffff;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color: #000000;
+}
+.dark{
+  padding:15px;
+  background: #e0e0e0;
+  color: #000000;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color: #ff6aa9;
+  text-align: center;
+}
+.container{
+  width:90%;
+  margin:auto;
+  overflow:hidden;
+}
+  /* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%; 
+  }
+  
+#newsletter{
+  padding:15px;
+  color:#ffffff;
+  background:#35424a
+}/* Newsletter */
+#newsletter{
+  padding:15px
+
+#newsletter h1{
+  float:left;
+}
+
+#newsletter form {
+  float:right;
+  margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+.page-title{
+    color: #ff6aa9;
+}
+.button:hover {
+   background-color: #ff8955;
+   
+   color: #000000;
+   font-weight: bold;
+   paddin: 1.5rem 2rem;
+   transitio: 0.5s ease;
+   transition:all 1.2s ease-in-out;
+   transform: rotate(720deg);
+}       
+
+   </style>
+<body>
+</head>
+<div class="logo"><h1><strong>STEVE<span> ONLY DOPE </span></strong></h1>
+<!-- <container class="anmbeger"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg></container> -->
+</div>
+<section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+        <form>
+          <input class="button_2" type="email" placeholder="Enter Email..." required>
+         <p><input class="button_2"type="password" placeholder="Enter Password..." required></p>
+         <br> <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">About Us</h1>
+          <p class="dark">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius auctor lacus nec feugiat. Phasellus sit amet ex ipsum. Praesent pharetra tincidunt tempor. Etiam velit eros, dapibus eget porta in, lacinia et magna. Nam eget eros non orci consectetur congue at ac augue. Proin eget arcu in enim feugiat ultricies. Curabitur maximus metus nec metus pretium viverra at et orci. Integer hendrerit ante ut placerat cursus.
+          </p>
+          <p class="dark">
+Aliquam eget pharetra diam. Nulla placerat lorem at turpis tempor, vel ultrices dui tincidunt. Proin quis egestas lorem. Mauris vehicula lectus odio, sit amet dictum justo feugiat a. Praesent id dictum lacus. Sed ullamcorper id erat ut dictum. Fusce porttitor lorem sapien, in aliquet sapien convallis et. Donec nec mauris nulla. Curabitur cursus semper odio, et hendrerit ante. Nunc at cursus ante. Maecenas gravida ligula ut efficitur suscipit. Nulla id turpis varius, pretium nunc sed, fermentum sem. Sed lacinia nunc non interdum pellentesque.
+          </p>
+        </article>
+
+        <aside id="sidebar">
+          <div class="dark">
+            <h3 class="page-title">What We Do</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius auctor lacus nec feugiat. Phasellus sit amet ex ipsum. Praesent pharetra tincidunt tempor. Etiam velit eros, dapibus eget porta in, lacinia et magna</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+<article id="main-col">    
+         <h1 class="page-title">Services</h1>
+          <!-- <ul class="services">
+            <li class="dark">
+              <h3>Website Design</h3> 
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+						  <p>Pricing: $1,000 - $3,000</p>
+            </li>
+            <li class="dark">
+              <h3>Website Maintenance</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+						  <p>Pricing: $250 per month</p>
+            </li>
+            <li class="dark">
+              <h3>Website Hosting</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+						  <p>Pricing: $25 per month</p>
+            </li>
+          </ul>  -->
+        </article>
+    <footer>
+      <p>Steve Only Dope, Copyright &copy; 2023</p>
+    </footer>
+  </body>
+</html>
+
+
+</body>
+</html>
